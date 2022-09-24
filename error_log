@@ -1,0 +1,80 @@
+[20-Sep-2022 11:15:28 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:15:28 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:15:28 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '../telefone/processamento_dados/curl.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:15:53 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:15:53 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:15:53 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '../telefone/processamento_dados/curl.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:17:55 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:17:55 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:17:55 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '../telefone/processamento_dados/curl.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:18:34 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:18:34 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:18:34 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '../telefone/processamento_dados/curl.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:18:46 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '',$_SESSION['' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/gopccompro/public_html/evento/dados.php on line 3
+[20-Sep-2022 11:19:05 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:19:05 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:19:05 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '../telefone/processamento_dados/curl.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:19:09 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:19:09 America/Sao_Paulo] PHP Warning:  require(../telefone/processamento_dados/curl.php): failed to open stream: No such file or directory in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:19:09 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '../telefone/processamento_dados/curl.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gopccompro/public_html/evento/dados.php on line 4
+[20-Sep-2022 11:24:18 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 7
+[20-Sep-2022 11:24:18 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 8
+[20-Sep-2022 11:24:18 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:31:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Curl::eviar() in /home/gopccompro/public_html/evento/dados.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gopccompro/public_html/evento/dados.php on line 13
+[20-Sep-2022 11:45:34 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:45:34 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:45:34 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:46:10 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:46:10 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:46:10 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:46:25 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:46:25 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:46:25 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:46:45 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:46:45 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:46:45 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:47:31 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:47:31 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:47:31 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:47:55 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:47:55 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:47:55 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:48:48 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:48:48 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:48:48 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:49:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:49:07 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:49:07 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:49:44 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 9
+[20-Sep-2022 11:49:44 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:49:44 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:51:02 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 10
+[20-Sep-2022 11:51:02 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:51:02 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 12
+[20-Sep-2022 11:51:26 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 11
+[20-Sep-2022 11:51:26 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 12
+[20-Sep-2022 11:51:26 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 13
+[20-Sep-2022 11:54:29 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 20
+[20-Sep-2022 11:54:29 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 21
+[20-Sep-2022 11:54:29 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 22
+[20-Sep-2022 11:54:29 America/Sao_Paulo] PHP Notice:  Undefined variable: _POS in /home/gopccompro/public_html/evento/dados.php on line 23
+[20-Sep-2022 11:54:29 America/Sao_Paulo] PHP Notice:  Trying to access array offset on value of type null in /home/gopccompro/public_html/evento/dados.php on line 23
+[20-Sep-2022 11:54:46 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 20
+[20-Sep-2022 11:54:46 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 21
+[20-Sep-2022 11:54:46 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 22
+[20-Sep-2022 11:54:46 America/Sao_Paulo] PHP Notice:  Undefined variable: _POS in /home/gopccompro/public_html/evento/dados.php on line 23
+[20-Sep-2022 11:54:46 America/Sao_Paulo] PHP Notice:  Trying to access array offset on value of type null in /home/gopccompro/public_html/evento/dados.php on line 23
+[20-Sep-2022 11:55:47 America/Sao_Paulo] PHP Notice:  Undefined variable: _POS in /home/gopccompro/public_html/evento/dados.php on line 23
+[20-Sep-2022 11:55:47 America/Sao_Paulo] PHP Notice:  Trying to access array offset on value of type null in /home/gopccompro/public_html/evento/dados.php on line 23
+[21-Sep-2022 14:24:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 12
+[21-Sep-2022 14:24:07 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 13
+[21-Sep-2022 14:24:07 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 14
+[21-Sep-2022 14:24:07 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 12
+[21-Sep-2022 14:24:07 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 13
+[21-Sep-2022 14:24:07 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 14
+[21-Sep-2022 14:24:08 America/Sao_Paulo] PHP Notice:  Undefined index: nome in /home/gopccompro/public_html/evento/dados.php on line 12
+[21-Sep-2022 14:24:08 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/gopccompro/public_html/evento/dados.php on line 13
+[21-Sep-2022 14:24:08 America/Sao_Paulo] PHP Notice:  Undefined index: telefone in /home/gopccompro/public_html/evento/dados.php on line 14

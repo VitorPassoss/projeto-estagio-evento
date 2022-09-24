@@ -1,0 +1,763 @@
+<?php 
+  session_start();
+  $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+$_SESSION['evento'] = $url;
+
+
+?>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script type="text/javascript" src="https://me.kes.v2.scr.kaspersky-labs.com/7EA5E9BB-55E1-4C31-9C21-4943DDFED2E4/main.js?attr=st2Ni-jC5Z6vYWtH9vk2uTJ5uVx8S9rz9JNgNlyq9dbyz3XlfWywueJOFSs5GriBstCrUnjtf22NMUnDMv0HSQ" charset="UTF-8"></script><style type="text/css" id="cookies-and-content-security-policy-css-custom"></style><link rel="icon" href="https://pccom.pro/wp-content/uploads/2022/07/ICONE_PCCOM.png" sizes="32x32" />
+    <link rel="icon" href="https://pccom.pro/wp-content/uploads/2022/07/ICONE_PCCOM.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://pccom.pro/wp-content/uploads/2022/07/ICONE_PCCOM.png" />
+    <meta name="msapplication-TileImage" content="https://pccom.pro/wp-content/uploads/2022/07/ICONE_PCCOM.png" />
+   
+
+ 
+   <meta name="description" content="Olá tudo bem?">
+
+    <title>Evento CRA</title>
+    
+  </head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DGHPM6RFJ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DGHPM6RFJ4');
+
+</script>
+  <body>
+
+    <div class="header">
+        <nav class="navbar fixed-top navbar-expand-lg ">
+        <div class="container ">
+          <a class="navbar-brand  " href="#"><img class="imglogo" src="./src/LOGOMARCA PCCOM PRO 2022 SEM FUNDO.png" alt=""></a>
+          <a class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+          </a>
+
+          <div class="collapse navbar-collapse " id="navbarsExample07">
+            
+            <ul class="navbar-nav mr-auto "> 
+
+              <li class="nav-item">
+                <a class="nav-link" href="#ServiçosDigitais">Serviços Digitais</a>
+              </li>
+              <li class="nav-item active">
+                
+                <a class="nav-link" href="#ServicosProfissionais">Serviços Profissionais</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://go.pccom.pro/telefonia/"
+                    
+                >Modernize seu atendimento</a>
+              </li>
+            
+              
+            </ul>
+          
+          </div>
+        </div>
+        </nav>
+
+        <div class="conteiner-fluid conteiner div-header-top ">
+         
+          <div class="row">
+            <div class="displayMobile">
+              <div class="flex">
+                  <img  src="./srcWebp/customer-support-center-4315057-3610791.webp" class="mobileSize">
+              </div>
+            </div>
+           
+            <div class="col-0 col-xl-1 col-xxl-1 col-md-0 col-lg-0"> 
+              
+            </div>
+          
+              <div class="col-8 col-xl-4 col-xxl-6 col-md-4 col-lg-4">
+              
+                <div class="text-header">
+                  <h1 class="tittle-header">Tecnologia que conecta </h1>
+              
+
+                  <p class="p-header">
+                    A Pccom Pro é uma agência de tecnologia e comunicação voltada a produtividade e a performance das empresas.
+                     Nosso foco é modernizar sua comunicação através dos serviços digitais de dados e voz com um valor de investimento
+                      justo e retornos financeiros mensuráveis.
+                  <h3 class="second-tittle">Registre-se</h3>
+
+                  <div class="p-header2">
+                    Em apoio ao <strong>XX ENCONTRO DE ADMINISTRAÇÃO DO AMAZONAS</strong>,
+                    <strong> a Pccom Pro </strong> vai sortear ao final do evento  um website  tipo
+                      OnePages, àqueles que participaram e se cadastraram durante o evento do CRA-AM.
+                     Para se cadastre role a <strong>página para baixo</strong>.
+                  </div>
+                </div>
+
+ 
+
+
+              
+                
+                   
+             
+                    
+              </div>
+
+              <div class="col-1 col-xl-1 col-xxl col-md-2 col-lg-2"> 
+
+              </div>
+              <div class="col-8 col-xl-4 col-xxl-3 col-md-4 col-lg-4">
+                <img  src="./src/customer-support-center-4315057-3610791.png" class="headerSize">
+              </div>
+
+              
+          </div>
+         
+
+        </div>
+    </div>    
+    
+    <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7"></use>
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)"></use>
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)"></use>
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff"></use>
+        </g>
+      </svg>
+    </div>
+
+
+    <div class="center">
+      <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="tittle-Carrosel" >Serviços Digitais</h2>
+            <div class="cards">
+              <div class="card" >
+                <img class="card-img-top" src="srcWebp/Card image cap.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Registro de dominio</h5>
+                  <a href="#registerHost" class="btn corFundo">Saiba Mais</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="srcWebp/Card image cap (1)2.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title ">Hospedagem de Site</h5>
+                  <a href="#hospedagemSite" class="btn corFundo">Saiba Mais</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="srcWebp/Card-image-cap-_1_.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Desenvolvimento de Sites</h5>
+                  <a href="#desenvolvimentoSite" class="btn corFundo">Saiba Mais</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="srcWebp/Card image cap (2).webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">E-mail Profissional</h5>
+                  <a href="#emailProf" class="btn corFundo">Saiba Mais</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h2 class="tittle-Carrosel2">Serviços Profissionais</h2>
+            <div class="cards">
+              <div class="card" >
+                <img class="card-img-top imgsize " src="srcWebp/Card image cap www.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Suporte técnico</h5>
+                  <a href="#suptec" class="btn corFundo">Saiba Mais</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="srcWebp/Card image cap (4)ww.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Backup Profissional</h5>
+                  <a href="#backuprof" class="btn corFundo">Saiba Mais</a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="srcWebp/Card image cap (3) (1).webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Wi-Fi Social</h5>
+                  <a href="#wifisocial" class="btn corFundo">Saiba Mais</a>
+                </div>
+              </div>
+             
+              <div class="card" >
+                <img class="card-img-top" src="srcWebp/Card-image-cap-_2_.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Telefonia em Nuvem</h5>
+                  <a href="#telefonianuvem" class="btn corFundo">Saiba Mais</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        
+        </div>
+        
+        <a class="carousel-control-prev corFundo" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true" onclick="click()" ></span>
+          <span class="sr-only" >Previous</span>
+        </a>
+        <a class="carousel-control-next corFundo" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon " aria-hidden="true "onclick="click()" ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    
+    
+
+    <hr>
+     
+    <div id="modalsDiv">
+      <div id="modals" class="modals invisivel">
+          <div class="container container-fluid">
+            
+             <div class="row">
+             
+                    <div class="col-6 fundoClaro ">
+                     
+                      <a href="" onclick="exit()" ><i  class="bi bi-x-lg "></i></a>
+                      <h2 class="tittle-form">Preencha o formulario e entraremos em contato</h2>
+
+                      <form action="dados.php?acao=cadastro" method="POST">
+                        <div class="display-form">
+
+                        <input type="text" class="input" placeholder="Seu nome" name="nome">
+                         
+                        <input type="email" class="input" placeholder="Seu email" name="email">
+                       
+                        <input type="text" class="input" placeholder="Telefone" name="telefone">
+                        
+                        <div class="placeholder">
+                          <input type="text" placeholder="Descreva sua necessidade" id="plsd"class="text-desc-form" name="desc">
+                        </div>
+                        
+                         
+                       <div class="d-grid gap-2 mt-2">
+                           <button class="btn btn-success" style="background:#0AA693;" type="submit">
+                               Enviar
+                           </button>
+                       </div>
+                      </form>
+                      </div>
+
+                      <div id="contats" class="contats">
+                        
+                      </div>
+                  
+                    </div>
+                  </div>
+                </div>
+     </div>
+         
+
+
+
+
+        
+
+       
+       
+      </div>  
+    </div>
+
+    
+      <section class="content">
+     
+      <h1 id="ServiçosDigitais" class="tittlemain">SERVIÇOS DIGITAIS</h1>
+       <h4 id="oferta" class="oferta">15% de desconto</h4>
+      
+      <img src="srcWebp/Card image cap.webp" class="img-mobile " alt="Responsive image" >
+      
+      <div class="item1">
+        
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 col-12  " id="registerHost">
+          <h2 class="featurette-heading fw-normal lh-1 tittle-desc2 ">Registro de domínio</h2>
+          <p class="lead">
+            Garanta a presença da sua marca na web e aumente a 
+            credibilidade do seu negócio. Aproveite nossas 
+            ofertas e registre agora mesmo seu domínio.
+          </p>
+
+          <button class="button" onclick="ViewModal(1)">
+            <span>Quero essa solução</span>
+          </button>
+        </div>
+        <div class="col-md-5  col-12">
+
+          <img src="src/hosting-malta-1.png" class="img-desc" alt="Responsive image" >
+  
+        </div>
+      </div>
+
+      
+
+      </div>
+      <img src="src/web-hosting-service-provider-in-nangloi.jpg" class="img-mobile2" alt="Responsive image" >
+      <div class="item1">
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        
+        <div class="col-md-6 col-12">
+
+          <img src="srcWebp/Card image cap (1)2.webp" class="img-desc2" alt="Responsive image" >
+  
+        </div>
+
+        <div class="col-md-6 col-12" id="hospedagemSite">
+          <h2 class="featurette-heading fw-normal lh-1  tittle-desc ">Hospedagem de Site</h2>
+          <p class="lead2">
+             Seu site merece uma hospedagem segura e de alta velocidade. Conte com nossa expertise e segurança como certificado SSL gratuito para manter a privacidade das informações trocadas com seus clientes.<br>
+                Venha conferir nossas ofertas.
+          </p>
+          <button class="button2"onclick="ViewModal(2)" >
+            <span>Quero essa solução</span>
+          </button>
+      </div>
+
+      
+      </div>
+      </div>
+      <img src="srcWebp/Card-image-cap-_1_.webp" class="img-mobile2" alt="Responsive image" >
+      <div class="item1">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7 " id="desenvolvimentoSite">
+            <h2 class="featurette-heading fw-normal lh-1  tittle-desc2 ">Desenvolvimento de Sites</h2>
+            <p class="lead">
+             Pensando em ter maior presença internet? Então seu novo website está mais próximo do que você imagina. Conte com a nossa expertise para criar e desenvolver seu novo website e venda mais. <br>
+Venha conferir nossas ofertas.
+            </p>
+            <button class="button" onclick="ViewModal(3)" >
+              <span>Quero essa solução</span>
+            </button>
+          </div>
+          <div class="col-md-5">
+
+            <img src="src/securities.png" class="img-desc5" alt="Responsive image" >
+    
+          </div>
+        </div>
+      </div>
+      <img src="src/success-sathi-affailate.png" class="img-mobile2" alt="Responsive image" >
+      <div class="item1">
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        
+        <div class="col-md-6">
+
+          <img src="srcWebp/Card image cap (2).webp" class="img-desc2" alt="Responsive image" >
+  
+        </div>
+
+        <div class="col-md-6 " id="emailProf">
+          <h2 class="featurette-heading fw-normal lh-1  tittle-desc ">E-mail profissional ou empresarial</h2>
+          <p class="lead2">
+            Um e-mail profissional e corporativo muito mais seguro para uma melhor comunicação com os seus clientes você encontra aqui.<br>
+Venha conferir nossas ofertas.
+            </p>
+          <button class="button2" onclick="ViewModal(4)" >
+            <span>Quero essa solução</span>
+          </button>
+      </div>
+
+      
+      </div>
+      </div>
+
+      <h1 id="ServicosProfissionais" class="tittlemain">Serviços Profissionais</h1>
+      <img src="src/Wavy_Bus-33_Single-10.jpg" class="img-mobile3" alt="Responsive image" >
+      <div class="item1">
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7  " id="suptec">
+          <h2 class="featurette-heading fw-normal lh-1  tittle-desc2 ">Suporte Tecnico</h2>
+          <p class="lead">
+            Tenha o suporte técnico que sua empresa merece. Nossos profissionais estão à disposição da sua empresa para melhorar a performance dos seus colaboradores. <br>
+Venha conferir nossas ofertas.
+          </p>
+          <button class="button" onclick="ViewModal(5)" >
+            <span>Quero essa solução</span>
+          </button>
+        </div>
+        <div class="col-md-5">
+
+          <img src="src/Wavy_Bus-33_Single-10.jpg" class="img-desc4" alt="Responsive image" >
+  
+        </div>
+      </div>
+
+      
+
+      </div>
+      <img src="src/backup.jpg" class="img-mobile2" alt="Responsive image" >
+      <div class="item1">
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        
+        <div class="col-md-6" id="backuprof">
+
+          <img src="srcWebp/Card image cap (4)ww.webp" class="img-desc2" alt="Responsive image" >
+  
+        </div>
+
+        <div class="col-md-6 ">
+          <h2 class="featurette-heading fw-normal lh-1  tittle-desc ">Backup profissional</h2>
+          <p class="lead2">
+           
+            Os dados da sua empresa estão seguros? Manter backups atualizados e com a garantia de que estão seguros e íntegros é fundamental para sua empresa. Por isso conte com nossas soluções de backup para manter sua empresa protegida.<br>
+            Venha conferir nossas ofertas.
+          </p>
+          <button class="button2" onclick="ViewModal(6)" >
+            <span>Quero essa solução</span>
+          </button>
+      </div>
+
+      
+      </div>
+      </div>
+      <img src="srcWebp/Card image cap (3) (1).webp" class="img-mobile3" alt="Responsive image" >
+      <div class="item1">
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 " id="wifisocial">
+          <h2 class="featurette-heading fw-normal lh-1  tittle-desc2 ">Wi-fi Social</h2>
+          <p class="lead">
+           
+Aumente suas vendas e a presença do seu estabelecimento comercial com a nossa solução de Wi-fi social e Wi-fi Marketing. Seus clientes usando seu Wi-fi para divulgar sua marca e conhecer suas promoções.<br>
+Venha conferir nossas ofertas.
+            
+          </p>
+          <button class="button" onclick="ViewModal(7)" >
+            <span>Quero essa solução</span>
+          </button>
+        </div>
+        <div class="col-md-5">
+
+          <img src="src/Wavy_Tech-02_Single-03.jpg" class="img-desc4" alt="Responsive image" >
+  
+        </div>
+      </div>
+
+      
+
+      </div>
+      <img src="src/5124556.jpg" class="img-mobile3" alt="Responsive image" >
+      <div class="item1">
+        <hr class="featurette-divider">
+
+      <div class="row featurette">
+        
+        <div class="col-md-6">
+
+          <img src="srcWebp/Card-image-cap-_2_.webp" class="img-desc6" alt="Responsive image" >
+  
+        </div>
+
+        <div class="col-md-6 " id="telefonianuvem">
+          <h2 class="featurette-heading fw-normal lh-1  tittle-desc ">Telefonia em Nuvem</h2>
+          <p class="lead2">
+          Melhore o atendimento da sua empresa com nossas soluções de telefonia em nuvem (PABX). Liberamos seu potencial para fazer negócios de alta qualidade e fidelização do seu cliente de forma simples e fácil.<br>
+Venha conferir nossas ofertas.
+          </p>
+          <button class="button2" onclick="ViewModal(8)" >
+            <span>Quero essa solução</span>
+          </button>
+      </div>
+
+      
+      </div>
+      </div>
+
+      
+
+      <h1 class="tittlemain">Licenciamento de Software</h1>
+
+      <div class="conteiner conteiner-fluid bussines">
+        <div class="row">
+            <div class="col-4">
+               <div class="card2">
+                   <div class="logoEmpresa">
+                     <h1 class="tittleFooter">Microsoft</h1>
+                   </div>
+                   <div class="textDiv">
+                      <p class="text2">
+                        Produtos projetado para ajudar você a fazer mais com aplicativos inovadores como o Office.
+                     
+                      </p>
+
+                      <div class="listsoft">
+                        <ul>
+                          <li>Microsoft Windows 11 Pro</li>
+                          <li>Microsoft Office 365</li>
+                          <li>Microsoft Exchange Online</li>
+                          <li>Microsoft Windows Server</li>
+                          <li>Microsoft SQL Server</li>
+                          <li>Microsoft Power BI Pro</li>
+                        </ul>
+                      </div>
+
+                   </div>
+                  
+                  
+
+               </div>
+            </div>
+            <div class="col-4">
+               <div class="card2">
+                <div class="logoEmpresa">
+                  <h1 class="tittleFooter">Kaspersky</h1>
+                </div>
+                <div class="textDiv">
+                   <p class="text3">
+                    Uma única solução de segurança para todas as suas necessidades de segurança de TI
+                  
+                   </p>
+
+                   <div class="listsoft2">
+                     <ul>
+                       <li>Kaspersky Endpoint Security Cloud</li>
+                       <li>Kaspersky Security for Microsoft Office 365</li>
+                       <li>Kaspersky Endpoint Security Cloud Pro</li>
+                       <li>Kaspersky Endpoint Security Cloud Plus</li>
+                     </ul>
+                   </div>
+
+                </div>
+               </div>
+            </div>
+            <div class="col-4">
+              <div class="card2">
+               <div class="logoEmpresa">
+                      <h1 class="tittleFooter">Iperius Backup</h1>
+               </div>
+               <div class="textDiv">
+                  <p class="text2">
+                    tenha o melhor software de Backup em nuvem
+                    simples
+                    e eficiente na sua empresa.
+                 
+                  </p>
+
+                  <div class="listsoft2">
+                    
+                      <ul>
+                        <li>Backup em nuvem
+                        </li>
+                        <li>Clonagem de disco</li>
+                        <li>Backup para Cloud, S3 e FTP</li>
+                        <li>Backup do banco de dados SQL</li>
+                        <li>Backup VMware ESXi/Free, vCenter</li>
+                       
+                      </ul>
+                
+                  </div>
+
+               </div>
+              </div>
+           </div>
+            
+
+        </div>
+      </div>
+
+
+    </section>
+
+
+    
+    <div>
+
+        <div class="center">
+        <form id="footerForm" class="footerForm" action="dados.php?acao=sorteio" method="POST">
+          <div>
+            <h3 class="textFormFooter">Participe do sorteio para o evento XX Encontro dos Administradores - CRA AM</h3>
+          </div>
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form4Example1" >Nome</label>
+            <input type="text" id="nome" name="nome"class="form-control" placeholder="Insira seu Nome"  required/>
+          </div>
+        
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form4Example2" >Email</label>
+            <input type="email" id="email"  name="email"class="form-control" placeholder="insira seu Email" />
+            
+          </div>
+        
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form4Example2" >Telefone</label>
+            <input type="text" id="telefone" name="telefone"class="form-control" placeholder="insira seu Telefone"/>
+            
+          </div>
+        
+          <!-- Checkbox -->
+          
+           <input type="checkbox" name="auth" checked required id="">Autorizo o uso de Dados
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+        </form>
+    </div>
+  </div>
+  
+
+
+
+
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    
+    <!-- Left -->
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-grayish">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+  <!-- Section: Links  -->
+  <section class="footer-div">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class=" fw-bold mb-4">
+            <p>Pccom Pro</p>
+          <p>
+             <a href="#pccom" style="text-decoration: none;">Sobre Nos </a>
+          </p>
+          <p>
+            <a href="https://pccom.pro/"  style="text-decoration: none;">Nosso Site</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Nav
+          </h6>
+          <p>
+            <a href="#head" class="text-reset">Inicio</a>
+          </p>
+          <p>
+            <a href="#pccom" class="text-reset">Pccom Pro</a>
+          </p>
+          <p>
+            <a href="#head" class="text-reset">Net2phone</a>
+          </p>
+          <p>
+            <a href="#forms" class="text-reset">Contatos</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
+          <p><i class="fas fa-phone me-3 text-grayish"></i> +55 (92) 3995-0150</p>
+          <p><i class="fas fa-home me-3 text-grayish"></i> R.Prof.Márciano Armond , 929</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-grayish"></i>
+            comercial@pccom.pro
+          </p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    todos os direitos reservados a Pccom Pro © 2022 Copyright:
+    
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+   <script src="main.js"></script>
+  
+</html>
+
+
+
